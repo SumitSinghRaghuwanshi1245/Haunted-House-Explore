@@ -455,46 +455,7 @@ header{
             transform: scale(1.1);
 }
 
-/* footer */
-footer{
-    background-color: var(--dark);
-    color: #fff;
-    text-align: center;
-    position: relative;
-}
-footer::before{
-    content: "";
-    position: absolute;
-    background-color: var(--green);
-    height: 4px;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-footer .site-brand{
-    margin-bottom: 1.5rem;
-    display: block;
-    font-size: 2rem!important;
-}
-.footer-item{
-    margin: 3rem 0;
-}
-.footer-item a{
-    font-size: 1.2rem;
-    color: #fff;
-    -webkit-transition: var(--trans);
-    -o-transition: var(--trans);
-    transition: var(--trans);
-}
-.footer-item a:hover{
-    color: var(--green);
-}
-.footer-item ul{
-    padding: 0;
-}
-.footer-item h2{
-    margin-bottom: 1.4rem;;
-}
+
 .social-links{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -850,24 +811,8 @@ header.header-sm{
     display: block;
     margin-bottom: 1rem;
 }
-.cursor{
-    height: 50px;
-    width: 50px;
-    background-size: cover;
-    mix-blend-mode: difference;
-    border-radius: 50%;
-    position: absolute;
-    transition: all linear 0.2s;
-    overflow: hidden;
-}
-#main{
-    height: 100%;
-    width: 100%;
-    background-color: #000;
-   /* display: flex;*/
-    align-items: center;
-    justify-content: center;
-}
+
+
 
 h1{
     color: #880808;
@@ -893,32 +838,8 @@ h3{
 #popular{
     background: #000;
 }
-/*body{
-   cursor:auto;
-}/*
-.cursor-dot{
-    height: 5px;
-    width: 5px;
-    background-image: url(/images/ghost.jpg);
-}
-.cursor-outline{
-    width: 30px;
-    height: 30px;
-    border: 2px solid hsla(0,0%,100%,0.5);
-}
-.cursor-dot, .cursor-outline{
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    z-index: 1;
-    pointer-events: none;
-}*/
-/*.blog-item-bottom{
-    background-color: #000;
-    color: #fff;
-}*/
+
+
 body{
     background-color: #000;
     color: #880808;
