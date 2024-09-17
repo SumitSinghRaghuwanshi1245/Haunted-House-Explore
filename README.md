@@ -1,6 +1,20 @@
 # Haunted-House-Explore
 This the Haunted House Website, with various pages. It also contains different pages of various incidents and places.
 
+# Live Demo
+Check out the live demo of the website here: https://sumitsinghraghuwanshi1245.github.io/Haunted-House-Explore/
+
+# Features 
+
+Custom Ghost Cursor: A ghost icon that follows the user's cursor for a creepy effect.
+
+Horror-Themed Design: Dark color schemes, eerie fonts, and spooky imagery for a terrifying experience.
+
+Responsive Layout: Works seamlessly on desktop and mobile devices.
+
+Animations: Subtle and spooky animations that enhance the haunting atmosphere.
+
+
 # Tech Used 
 we used the basics, 
 HTML, CSS, JavaScript, GSAP
