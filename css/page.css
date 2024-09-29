@@ -4,6 +4,11 @@
     --dark: #0e1010;
     --trans: all 0.3s ease-in-out;
 }
+
+*::selection{
+    background-color: #fb395995;
+}
+
 .navbar{
     position: fixed;
     top: 0;

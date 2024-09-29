@@ -6,6 +6,11 @@
     color: #880808;
 }
 
+*::selection{
+    background-color: #fb395995;
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
