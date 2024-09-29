@@ -17,10 +17,33 @@
         <link rel = "stylesheet" href = "css/page.css">
         <link rel = "stylesheet" href = "css/responsive.css">
         <!--<link rel="stylesheet" href="style.css">-->
-        <link rel="icon" href="images/ghost.jpg">
+        <link rel="icon" href="./assets/ghost.png">
         
     </head>
-    <body  id="#main">
+    <body  id="main">
+
+        <div class="cursor" style="background-image: url(./assets/ghost.png);"></div>
+
+        <style>.cursor {
+            height: 50px;
+            width: 50px;
+            /*background-color: rgb(255, 255, 255);*/
+             background-size: cover;
+            mix-blend-mode: difference;
+            border-radius: 50%;
+             position: absolute;
+            transition: all linear 0.2s;
+            overflow: hidden;
+            } 
+    
+            #main{
+                height: 100%;
+                width: 100%;
+                background-color: #000;
+               /* display:flex;*/
+                align-items: center;
+                justify-content: center;
+            }</style>
 
         <!-- navbar  -->
         <nav class = "navbar">
