@@ -8,6 +8,15 @@ main.addEventListener("mousemove", function(dets){
     crsr.style.top = dets.y+"px"
 })
 
+
+window.onload = function() {
+    var audio = document.getElementById('background-audio');
+    audio.play();
+    audio.loop = true;  
+  };
+
+
+
 // var mySong = document.getElementById("mySong");
 // mySong.onload = function () {
 //     mySong.play();

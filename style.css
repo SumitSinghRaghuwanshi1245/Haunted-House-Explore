@@ -40,8 +40,17 @@ nav {
 
 nav .logo {
     width: 100px;
-    
+    animation: heartbeat 0.8s ease-in-out infinite;
 }
+
+@keyframes heartbeat {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+  }
 
 .logo:hover {
     box-shadow: 0 0 900px #8d0404;
@@ -129,8 +138,19 @@ img {
     border-radius: 20px;
     margin-left: 800px;
     box-shadow: 0 0 900px #8d0404;
-
+    animation: shiftTopBottom 1s ease-in-out infinite;
 }
+
+@keyframes shiftTopBottom {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(50%);
+      /* transform: translateX(50%); */
+    }
+  }
+  
 
 .info .about:hover{
     box-shadow: 0 0 900px #3b025e;
@@ -406,14 +426,28 @@ footer {
       .section-third .section-third-task .task-3:hover {
         background: #82303088;
         box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
-        transform: translate(20px, 10px);
+        /* transform: translate(20px, 10px); */
+        transition: all 0.2s ease-in-out;
+        animation: heartbeat 0.8s ease-in-out infinite;
       }
+
+      
+@keyframes heartbeat {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
       
       .section-third .section-third-task .task-1:hover > img,
       .section-third .section-third-task .task-2:hover > img,
       .section-third .section-third-task .task-3:hover > img {
-         transform: rotate(25deg);
+         /* transform: rotate(25deg); */
       }
+      
       
       @media screen and (max-width: 768px) {
         .section-third h2 {
